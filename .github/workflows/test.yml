@@ -6,6 +6,10 @@ on: # rebuild any PRs and main branch changes
       - main
       - 'releases/*'
 
+permissions:
+  id-token: write
+  contents: read
+
 env:
   AWS_REGION: us-west-2
 
