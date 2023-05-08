@@ -11,6 +11,7 @@ export async function run(): Promise<void> {
     const bucket = s3Uri.split('/')[2]
     const prefix = s3Uri.split('/').slice(3, -1).join('/')
     const key = `${prefix}/.pulumi/stacks/${stackName}.json`
+    core.debug(`Reading ${key} from ${bucket}`)
 
     const s3 = new S3Client({})
     const command = new GetObjectCommand({Bucket: bucket, Key: key})
