@@ -61,6 +61,7 @@ function run() {
             if (!body) {
                 throw new Error(`Failed to read ${stackName} from ${s3Uri}`);
             }
+            core.debug(body);
             const state = JSON.parse(body);
             const latestKey = 'latest' in state.checkpoint ? 'latest' : 'Latest';
             const resources = state.checkpoint[latestKey].resources;
