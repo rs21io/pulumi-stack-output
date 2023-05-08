@@ -25,11 +25,11 @@ jobs:
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
-          role-to-assume: ${{ secrets.AWS_PUBLIC_RS21_DEPLOY_ROLE_ARN }}
+          role-to-assume: ${{ secrets.AWS_ARN }}
           role-session-name: github-actions
           aws-region: ${{ env.AWS_REGION }}
       - uses: ./
         with:
           stack: cluster.dev
-          output: kubeconfig
-          cloud-url: s3://rs21-infrastructure
+          output: name
+          cloud-url: ${{ secrets.BACKEND_URL }}
