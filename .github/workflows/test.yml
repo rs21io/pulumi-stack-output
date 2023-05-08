@@ -6,6 +6,9 @@ on: # rebuild any PRs and main branch changes
       - main
       - 'releases/*'
 
+env:
+  AWS_REGION: us-west-2
+
 jobs:
   build: # make sure build/ci work properly
     runs-on: ubuntu-latest
@@ -19,6 +22,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          role-to-assume: ${{ secrets.AWS_PUBLIC_RS21_DEPLOY_ROLE_ARN }}
+          role-session-name: github-actions
+          aws-region: ${{ env.AWS_REGION }}
       - uses: ./
         with:
-          milliseconds: 1000
+          stack: cluster.dev
+          output: kubeconfig
+          cloud-url: s3://rs21-infrastructure

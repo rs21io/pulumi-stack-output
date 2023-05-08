@@ -1,16 +1,33 @@
 import * as core from '@actions/core'
-import {wait} from './wait'
+import { S3Client, GetObjectCommand } from '@aws-sdk/client-s3'
+import { resourceUsage } from 'process'
 
-async function run(): Promise<void> {
+export async function run(): Promise<void> {
   try {
-    const ms: string = core.getInput('milliseconds')
-    core.debug(`Waiting ${ms} milliseconds ...`) // debug is only output if you set the secret `ACTIONS_STEP_DEBUG` to true
+    const stackName: string = core.getInput('stack')
+    const outputName: string = core.getInput('output')
+    let s3Uri: string = core.getInput('cloud-url')
 
-    core.debug(new Date().toTimeString())
-    await wait(parseInt(ms, 10))
-    core.debug(new Date().toTimeString())
+    if (!s3Uri.endsWith('/')) s3Uri += '/'
+    const bucket = s3Uri.split('/')[2]
+    const prefix = s3Uri.split('/').slice(3, -1).join('/')
+    const key = `${prefix}/.pulumi/stacks/${stackName}.json`
+    console.log(bucket);
 
-    core.setOutput('time', new Date().toTimeString())
+    const s3 = new S3Client({});
+    const command = new GetObjectCommand({ Bucket: bucket, Key: key });
+    const response = await s3.send(command);
+    const body = response.Body?.toString();
+    if (!body) {
+      throw new Error(`Failed to read ${stackName} from ${s3Uri}`);
+    }
+
+    const state = JSON.parse(body);
+    const latestKey = 'latest' in state.checkpoint ? 'latest' : 'Latest'
+    const resources = state.checkpoint[latestKey].resources
+    const stack = resources.find((r: any) => r.type === 'pulumi:pulumi:Stack')
+    const output = stack.outputs[outputName]
+    core.setOutput(outputName, output)
   } catch (error) {
     if (error instanceof Error) core.setFailed(error.message)
   }

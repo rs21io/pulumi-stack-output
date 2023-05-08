@@ -1,11 +1,16 @@
-name: 'Your name here'
-description: 'Provide a description here'
-author: 'Your name or organization here'
+name: 'Get Pulumi stack output'
+description: 'Retrieve a stack output from an S3 backend'
+author: 'RS21'
 inputs:
-  milliseconds: # change this
+  stack:
     required: true
-    description: 'input description here'
-    default: 'default value if applicable'
+    description: 'stack whose outputs you want to get'
+  output:
+    required: true
+    description: 'output you want to get'
+  cloud-url:
+    required: true
+    description: 'S3 URI where the stack state is stored'
 runs:
   using: 'node16'
   main: 'dist/index.js'
