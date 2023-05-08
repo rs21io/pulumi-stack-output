@@ -26,22 +26,26 @@ describe('run', () => {
       })
 
     const getObjectMock = jest.fn().mockResolvedValue({
-      Body: Buffer.from(
-        JSON.stringify({
-          checkpoint: {
-            Latest: {
-              resources: [
-                {
-                  type: 'pulumi:pulumi:Stack',
-                  outputs: {
-                    'my-output': 'my-value'
-                  }
+      Body:
+        // mock transformToString
+        {
+          transformToString: jest.fn().mockResolvedValue(
+            JSON.stringify({
+              checkpoint: {
+                Latest: {
+                  resources: [
+                    {
+                      type: 'pulumi:pulumi:Stack',
+                      outputs: {
+                        'my-output': 'my-value'
+                      }
+                    }
+                  ]
                 }
-              ]
-            }
-          }
-        })
-      )
+              }
+            })
+          )
+        }
     })
     ;(S3Client as jest.Mock).mockImplementation(() => ({
       send: getObjectMock
