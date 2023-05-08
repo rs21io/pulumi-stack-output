@@ -15,7 +15,7 @@ export async function run(): Promise<void> {
     const s3 = new S3Client({})
     const command = new GetObjectCommand({Bucket: bucket, Key: key})
     const response = await s3.send(command)
-    const body = response.Body?.toString()
+    const body = await response.Body?.transformToString()
     if (!body) {
       throw new Error(`Failed to read ${stackName} from ${s3Uri}`)
     }

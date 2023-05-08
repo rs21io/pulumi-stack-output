@@ -57,7 +57,7 @@ function run() {
             const s3 = new client_s3_1.S3Client({});
             const command = new client_s3_1.GetObjectCommand({ Bucket: bucket, Key: key });
             const response = yield s3.send(command);
-            const body = (_a = response.Body) === null || _a === void 0 ? void 0 : _a.toString();
+            const body = yield ((_a = response.Body) === null || _a === void 0 ? void 0 : _a.transformToString());
             if (!body) {
                 throw new Error(`Failed to read ${stackName} from ${s3Uri}`);
             }
