@@ -34,6 +34,6 @@ jobs:
           aws-region: ${{ env.AWS_REGION }}
       - uses: ./
         with:
-          stack: cluster.dev
+          stack: cluster/dev
           output: name
           cloud-url: ${{ secrets.BACKEND_URL }}
