@@ -9861,9 +9861,9 @@ exports.se_GetObjectTorrentCommand = exports.se_GetObjectTaggingCommand = export
 exports.de_DeleteBucketAnalyticsConfigurationCommand = exports.de_DeleteBucketCommand = exports.de_CreateMultipartUploadCommand = exports.de_CreateBucketCommand = exports.de_CopyObjectCommand = exports.de_CompleteMultipartUploadCommand = exports.de_AbortMultipartUploadCommand = exports.se_WriteGetObjectResponseCommand = exports.se_UploadPartCopyCommand = exports.se_UploadPartCommand = exports.se_SelectObjectContentCommand = exports.se_RestoreObjectCommand = exports.se_PutPublicAccessBlockCommand = exports.se_PutObjectTaggingCommand = exports.se_PutObjectRetentionCommand = exports.se_PutObjectLockConfigurationCommand = exports.se_PutObjectLegalHoldCommand = exports.se_PutObjectAclCommand = exports.se_PutObjectCommand = exports.se_PutBucketWebsiteCommand = exports.se_PutBucketVersioningCommand = exports.se_PutBucketTaggingCommand = exports.se_PutBucketRequestPaymentCommand = exports.se_PutBucketReplicationCommand = exports.se_PutBucketPolicyCommand = exports.se_PutBucketOwnershipControlsCommand = exports.se_PutBucketNotificationConfigurationCommand = exports.se_PutBucketMetricsConfigurationCommand = exports.se_PutBucketLoggingCommand = exports.se_PutBucketLifecycleConfigurationCommand = exports.se_PutBucketInventoryConfigurationCommand = exports.se_PutBucketIntelligentTieringConfigurationCommand = exports.se_PutBucketEncryptionCommand = exports.se_PutBucketCorsCommand = exports.se_PutBucketAnalyticsConfigurationCommand = exports.se_PutBucketAclCommand = exports.se_PutBucketAccelerateConfigurationCommand = exports.se_ListPartsCommand = exports.se_ListObjectVersionsCommand = exports.se_ListObjectsV2Command = exports.se_ListObjectsCommand = exports.se_ListMultipartUploadsCommand = exports.se_ListBucketsCommand = exports.se_ListBucketMetricsConfigurationsCommand = exports.se_ListBucketInventoryConfigurationsCommand = exports.se_ListBucketIntelligentTieringConfigurationsCommand = exports.se_ListBucketAnalyticsConfigurationsCommand = exports.se_HeadObjectCommand = exports.se_HeadBucketCommand = exports.se_GetPublicAccessBlockCommand = void 0;
 exports.de_ListBucketMetricsConfigurationsCommand = exports.de_ListBucketInventoryConfigurationsCommand = exports.de_ListBucketIntelligentTieringConfigurationsCommand = exports.de_ListBucketAnalyticsConfigurationsCommand = exports.de_HeadObjectCommand = exports.de_HeadBucketCommand = exports.de_GetPublicAccessBlockCommand = exports.de_GetObjectTorrentCommand = exports.de_GetObjectTaggingCommand = exports.de_GetObjectRetentionCommand = exports.de_GetObjectLockConfigurationCommand = exports.de_GetObjectLegalHoldCommand = exports.de_GetObjectAttributesCommand = exports.de_GetObjectAclCommand = exports.de_GetObjectCommand = exports.de_GetBucketWebsiteCommand = exports.de_GetBucketVersioningCommand = exports.de_GetBucketTaggingCommand = exports.de_GetBucketRequestPaymentCommand = exports.de_GetBucketReplicationCommand = exports.de_GetBucketPolicyStatusCommand = exports.de_GetBucketPolicyCommand = exports.de_GetBucketOwnershipControlsCommand = exports.de_GetBucketNotificationConfigurationCommand = exports.de_GetBucketMetricsConfigurationCommand = exports.de_GetBucketLoggingCommand = exports.de_GetBucketLocationCommand = exports.de_GetBucketLifecycleConfigurationCommand = exports.de_GetBucketInventoryConfigurationCommand = exports.de_GetBucketIntelligentTieringConfigurationCommand = exports.de_GetBucketEncryptionCommand = exports.de_GetBucketCorsCommand = exports.de_GetBucketAnalyticsConfigurationCommand = exports.de_GetBucketAclCommand = exports.de_GetBucketAccelerateConfigurationCommand = exports.de_DeletePublicAccessBlockCommand = exports.de_DeleteObjectTaggingCommand = exports.de_DeleteObjectsCommand = exports.de_DeleteObjectCommand = exports.de_DeleteBucketWebsiteCommand = exports.de_DeleteBucketTaggingCommand = exports.de_DeleteBucketReplicationCommand = exports.de_DeleteBucketPolicyCommand = exports.de_DeleteBucketOwnershipControlsCommand = exports.de_DeleteBucketMetricsConfigurationCommand = exports.de_DeleteBucketLifecycleCommand = exports.de_DeleteBucketInventoryConfigurationCommand = exports.de_DeleteBucketIntelligentTieringConfigurationCommand = exports.de_DeleteBucketEncryptionCommand = exports.de_DeleteBucketCorsCommand = void 0;
 exports.de_WriteGetObjectResponseCommand = exports.de_UploadPartCopyCommand = exports.de_UploadPartCommand = exports.de_SelectObjectContentCommand = exports.de_RestoreObjectCommand = exports.de_PutPublicAccessBlockCommand = exports.de_PutObjectTaggingCommand = exports.de_PutObjectRetentionCommand = exports.de_PutObjectLockConfigurationCommand = exports.de_PutObjectLegalHoldCommand = exports.de_PutObjectAclCommand = exports.de_PutObjectCommand = exports.de_PutBucketWebsiteCommand = exports.de_PutBucketVersioningCommand = exports.de_PutBucketTaggingCommand = exports.de_PutBucketRequestPaymentCommand = exports.de_PutBucketReplicationCommand = exports.de_PutBucketPolicyCommand = exports.de_PutBucketOwnershipControlsCommand = exports.de_PutBucketNotificationConfigurationCommand = exports.de_PutBucketMetricsConfigurationCommand = exports.de_PutBucketLoggingCommand = exports.de_PutBucketLifecycleConfigurationCommand = exports.de_PutBucketInventoryConfigurationCommand = exports.de_PutBucketIntelligentTieringConfigurationCommand = exports.de_PutBucketEncryptionCommand = exports.de_PutBucketCorsCommand = exports.de_PutBucketAnalyticsConfigurationCommand = exports.de_PutBucketAclCommand = exports.de_PutBucketAccelerateConfigurationCommand = exports.de_ListPartsCommand = exports.de_ListObjectVersionsCommand = exports.de_ListObjectsV2Command = exports.de_ListObjectsCommand = exports.de_ListMultipartUploadsCommand = exports.de_ListBucketsCommand = void 0;
-const protocol_http_1 = __nccwpck_require__(70223);
 const smithy_client_1 = __nccwpck_require__(4963);
 const xml_builder_1 = __nccwpck_require__(42329);
+const protocol_http_1 = __nccwpck_require__(64418);
 const fast_xml_parser_1 = __nccwpck_require__(12603);
 const models_0_1 = __nccwpck_require__(51628);
 const models_1_1 = __nccwpck_require__(6958);
@@ -20712,8 +20712,8 @@ exports.InvalidClientMetadataException = InvalidClientMetadataException;
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.de_StartDeviceAuthorizationCommand = exports.de_RegisterClientCommand = exports.de_CreateTokenCommand = exports.se_StartDeviceAuthorizationCommand = exports.se_RegisterClientCommand = exports.se_CreateTokenCommand = void 0;
-const protocol_http_1 = __nccwpck_require__(70223);
 const smithy_client_1 = __nccwpck_require__(4963);
+const protocol_http_1 = __nccwpck_require__(64418);
 const models_0_1 = __nccwpck_require__(69374);
 const SSOOIDCServiceException_1 = __nccwpck_require__(43026);
 const se_CreateTokenCommand = async (input, context) => {
@@ -21401,10 +21401,10 @@ var __createBinding;
                 if (result === null || typeof result !== "object") throw new TypeError("Object expected");
                 if (_ = accept(result.get)) descriptor.get = _;
                 if (_ = accept(result.set)) descriptor.set = _;
-                if (_ = accept(result.init)) initializers.push(_);
+                if (_ = accept(result.init)) initializers.unshift(_);
             }
             else if (_ = accept(result)) {
-                if (kind === "field") initializers.push(_);
+                if (kind === "field") initializers.unshift(_);
                 else descriptor[key] = _;
             }
         }
@@ -22256,8 +22256,8 @@ tslib_1.__exportStar(__nccwpck_require__(50938), exports);
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.de_LogoutCommand = exports.de_ListAccountsCommand = exports.de_ListAccountRolesCommand = exports.de_GetRoleCredentialsCommand = exports.se_LogoutCommand = exports.se_ListAccountsCommand = exports.se_ListAccountRolesCommand = exports.se_GetRoleCredentialsCommand = void 0;
-const protocol_http_1 = __nccwpck_require__(70223);
 const smithy_client_1 = __nccwpck_require__(4963);
+const protocol_http_1 = __nccwpck_require__(64418);
 const models_0_1 = __nccwpck_require__(66390);
 const SSOServiceException_1 = __nccwpck_require__(81517);
 const se_GetRoleCredentialsCommand = async (input, context) => {
@@ -22843,10 +22843,10 @@ var __createBinding;
                 if (result === null || typeof result !== "object") throw new TypeError("Object expected");
                 if (_ = accept(result.get)) descriptor.get = _;
                 if (_ = accept(result.set)) descriptor.set = _;
-                if (_ = accept(result.init)) initializers.push(_);
+                if (_ = accept(result.init)) initializers.unshift(_);
             }
             else if (_ = accept(result)) {
-                if (kind === "field") initializers.push(_);
+                if (kind === "field") initializers.unshift(_);
                 else descriptor[key] = _;
             }
         }
@@ -23182,6 +23182,7 @@ const middleware_endpoint_1 = __nccwpck_require__(5497);
 const middleware_serde_1 = __nccwpck_require__(93631);
 const middleware_signing_1 = __nccwpck_require__(14935);
 const smithy_client_1 = __nccwpck_require__(4963);
+const models_0_1 = __nccwpck_require__(21780);
 const Aws_query_1 = __nccwpck_require__(10740);
 class AssumeRoleCommand extends smithy_client_1.Command {
     static getEndpointParameterInstructions() {
@@ -23210,7 +23211,7 @@ class AssumeRoleCommand extends smithy_client_1.Command {
             clientName,
             commandName,
             inputFilterSensitiveLog: (_) => _,
-            outputFilterSensitiveLog: (_) => _,
+            outputFilterSensitiveLog: models_0_1.AssumeRoleResponseFilterSensitiveLog,
         };
         const { requestHandler } = configuration;
         return stack.resolve((request) => requestHandler.handle(request.request, options || {}), handlerExecutionContext);
@@ -23237,6 +23238,7 @@ exports.AssumeRoleWithSAMLCommand = void 0;
 const middleware_endpoint_1 = __nccwpck_require__(5497);
 const middleware_serde_1 = __nccwpck_require__(93631);
 const smithy_client_1 = __nccwpck_require__(4963);
+const models_0_1 = __nccwpck_require__(21780);
 const Aws_query_1 = __nccwpck_require__(10740);
 class AssumeRoleWithSAMLCommand extends smithy_client_1.Command {
     static getEndpointParameterInstructions() {
@@ -23263,8 +23265,8 @@ class AssumeRoleWithSAMLCommand extends smithy_client_1.Command {
             logger,
             clientName,
             commandName,
-            inputFilterSensitiveLog: (_) => _,
-            outputFilterSensitiveLog: (_) => _,
+            inputFilterSensitiveLog: models_0_1.AssumeRoleWithSAMLRequestFilterSensitiveLog,
+            outputFilterSensitiveLog: models_0_1.AssumeRoleWithSAMLResponseFilterSensitiveLog,
         };
         const { requestHandler } = configuration;
         return stack.resolve((request) => requestHandler.handle(request.request, options || {}), handlerExecutionContext);
@@ -23291,6 +23293,7 @@ exports.AssumeRoleWithWebIdentityCommand = void 0;
 const middleware_endpoint_1 = __nccwpck_require__(5497);
 const middleware_serde_1 = __nccwpck_require__(93631);
 const smithy_client_1 = __nccwpck_require__(4963);
+const models_0_1 = __nccwpck_require__(21780);
 const Aws_query_1 = __nccwpck_require__(10740);
 class AssumeRoleWithWebIdentityCommand extends smithy_client_1.Command {
     static getEndpointParameterInstructions() {
@@ -23317,8 +23320,8 @@ class AssumeRoleWithWebIdentityCommand extends smithy_client_1.Command {
             logger,
             clientName,
             commandName,
-            inputFilterSensitiveLog: (_) => _,
-            outputFilterSensitiveLog: (_) => _,
+            inputFilterSensitiveLog: models_0_1.AssumeRoleWithWebIdentityRequestFilterSensitiveLog,
+            outputFilterSensitiveLog: models_0_1.AssumeRoleWithWebIdentityResponseFilterSensitiveLog,
         };
         const { requestHandler } = configuration;
         return stack.resolve((request) => requestHandler.handle(request.request, options || {}), handlerExecutionContext);
@@ -23514,6 +23517,7 @@ const middleware_endpoint_1 = __nccwpck_require__(5497);
 const middleware_serde_1 = __nccwpck_require__(93631);
 const middleware_signing_1 = __nccwpck_require__(14935);
 const smithy_client_1 = __nccwpck_require__(4963);
+const models_0_1 = __nccwpck_require__(21780);
 const Aws_query_1 = __nccwpck_require__(10740);
 class GetFederationTokenCommand extends smithy_client_1.Command {
     static getEndpointParameterInstructions() {
@@ -23542,7 +23546,7 @@ class GetFederationTokenCommand extends smithy_client_1.Command {
             clientName,
             commandName,
             inputFilterSensitiveLog: (_) => _,
-            outputFilterSensitiveLog: (_) => _,
+            outputFilterSensitiveLog: models_0_1.GetFederationTokenResponseFilterSensitiveLog,
         };
         const { requestHandler } = configuration;
         return stack.resolve((request) => requestHandler.handle(request.request, options || {}), handlerExecutionContext);
@@ -23570,6 +23574,7 @@ const middleware_endpoint_1 = __nccwpck_require__(5497);
 const middleware_serde_1 = __nccwpck_require__(93631);
 const middleware_signing_1 = __nccwpck_require__(14935);
 const smithy_client_1 = __nccwpck_require__(4963);
+const models_0_1 = __nccwpck_require__(21780);
 const Aws_query_1 = __nccwpck_require__(10740);
 class GetSessionTokenCommand extends smithy_client_1.Command {
     static getEndpointParameterInstructions() {
@@ -23598,7 +23603,7 @@ class GetSessionTokenCommand extends smithy_client_1.Command {
             clientName,
             commandName,
             inputFilterSensitiveLog: (_) => _,
-            outputFilterSensitiveLog: (_) => _,
+            outputFilterSensitiveLog: models_0_1.GetSessionTokenResponseFilterSensitiveLog,
         };
         const { requestHandler } = configuration;
         return stack.resolve((request) => requestHandler.handle(request.request, options || {}), handlerExecutionContext);
@@ -23866,7 +23871,8 @@ tslib_1.__exportStar(__nccwpck_require__(21780), exports);
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.InvalidAuthorizationMessageException = exports.IDPCommunicationErrorException = exports.InvalidIdentityTokenException = exports.IDPRejectedClaimException = exports.RegionDisabledException = exports.PackedPolicyTooLargeException = exports.MalformedPolicyDocumentException = exports.ExpiredTokenException = void 0;
+exports.GetSessionTokenResponseFilterSensitiveLog = exports.GetFederationTokenResponseFilterSensitiveLog = exports.AssumeRoleWithWebIdentityResponseFilterSensitiveLog = exports.AssumeRoleWithWebIdentityRequestFilterSensitiveLog = exports.AssumeRoleWithSAMLResponseFilterSensitiveLog = exports.AssumeRoleWithSAMLRequestFilterSensitiveLog = exports.AssumeRoleResponseFilterSensitiveLog = exports.CredentialsFilterSensitiveLog = exports.InvalidAuthorizationMessageException = exports.IDPCommunicationErrorException = exports.InvalidIdentityTokenException = exports.IDPRejectedClaimException = exports.RegionDisabledException = exports.PackedPolicyTooLargeException = exports.MalformedPolicyDocumentException = exports.ExpiredTokenException = void 0;
+const smithy_client_1 = __nccwpck_require__(4963);
 const STSServiceException_1 = __nccwpck_require__(26450);
 class ExpiredTokenException extends STSServiceException_1.STSServiceException {
     constructor(opts) {
@@ -23972,6 +23978,46 @@ class InvalidAuthorizationMessageException extends STSServiceException_1.STSServ
     }
 }
 exports.InvalidAuthorizationMessageException = InvalidAuthorizationMessageException;
+const CredentialsFilterSensitiveLog = (obj) => ({
+    ...obj,
+    ...(obj.SecretAccessKey && { SecretAccessKey: smithy_client_1.SENSITIVE_STRING }),
+});
+exports.CredentialsFilterSensitiveLog = CredentialsFilterSensitiveLog;
+const AssumeRoleResponseFilterSensitiveLog = (obj) => ({
+    ...obj,
+    ...(obj.Credentials && { Credentials: (0, exports.CredentialsFilterSensitiveLog)(obj.Credentials) }),
+});
+exports.AssumeRoleResponseFilterSensitiveLog = AssumeRoleResponseFilterSensitiveLog;
+const AssumeRoleWithSAMLRequestFilterSensitiveLog = (obj) => ({
+    ...obj,
+    ...(obj.SAMLAssertion && { SAMLAssertion: smithy_client_1.SENSITIVE_STRING }),
+});
+exports.AssumeRoleWithSAMLRequestFilterSensitiveLog = AssumeRoleWithSAMLRequestFilterSensitiveLog;
+const AssumeRoleWithSAMLResponseFilterSensitiveLog = (obj) => ({
+    ...obj,
+    ...(obj.Credentials && { Credentials: (0, exports.CredentialsFilterSensitiveLog)(obj.Credentials) }),
+});
+exports.AssumeRoleWithSAMLResponseFilterSensitiveLog = AssumeRoleWithSAMLResponseFilterSensitiveLog;
+const AssumeRoleWithWebIdentityRequestFilterSensitiveLog = (obj) => ({
+    ...obj,
+    ...(obj.WebIdentityToken && { WebIdentityToken: smithy_client_1.SENSITIVE_STRING }),
+});
+exports.AssumeRoleWithWebIdentityRequestFilterSensitiveLog = AssumeRoleWithWebIdentityRequestFilterSensitiveLog;
+const AssumeRoleWithWebIdentityResponseFilterSensitiveLog = (obj) => ({
+    ...obj,
+    ...(obj.Credentials && { Credentials: (0, exports.CredentialsFilterSensitiveLog)(obj.Credentials) }),
+});
+exports.AssumeRoleWithWebIdentityResponseFilterSensitiveLog = AssumeRoleWithWebIdentityResponseFilterSensitiveLog;
+const GetFederationTokenResponseFilterSensitiveLog = (obj) => ({
+    ...obj,
+    ...(obj.Credentials && { Credentials: (0, exports.CredentialsFilterSensitiveLog)(obj.Credentials) }),
+});
+exports.GetFederationTokenResponseFilterSensitiveLog = GetFederationTokenResponseFilterSensitiveLog;
+const GetSessionTokenResponseFilterSensitiveLog = (obj) => ({
+    ...obj,
+    ...(obj.Credentials && { Credentials: (0, exports.CredentialsFilterSensitiveLog)(obj.Credentials) }),
+});
+exports.GetSessionTokenResponseFilterSensitiveLog = GetSessionTokenResponseFilterSensitiveLog;
 
 
 /***/ }),
@@ -23983,8 +24029,8 @@ exports.InvalidAuthorizationMessageException = InvalidAuthorizationMessageExcept
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.de_GetSessionTokenCommand = exports.de_GetFederationTokenCommand = exports.de_GetCallerIdentityCommand = exports.de_GetAccessKeyInfoCommand = exports.de_DecodeAuthorizationMessageCommand = exports.de_AssumeRoleWithWebIdentityCommand = exports.de_AssumeRoleWithSAMLCommand = exports.de_AssumeRoleCommand = exports.se_GetSessionTokenCommand = exports.se_GetFederationTokenCommand = exports.se_GetCallerIdentityCommand = exports.se_GetAccessKeyInfoCommand = exports.se_DecodeAuthorizationMessageCommand = exports.se_AssumeRoleWithWebIdentityCommand = exports.se_AssumeRoleWithSAMLCommand = exports.se_AssumeRoleCommand = void 0;
-const protocol_http_1 = __nccwpck_require__(70223);
 const smithy_client_1 = __nccwpck_require__(4963);
+const protocol_http_1 = __nccwpck_require__(64418);
 const fast_xml_parser_1 = __nccwpck_require__(12603);
 const models_0_1 = __nccwpck_require__(21780);
 const STSServiceException_1 = __nccwpck_require__(26450);
@@ -25199,10 +25245,10 @@ var __createBinding;
                 if (result === null || typeof result !== "object") throw new TypeError("Object expected");
                 if (_ = accept(result.get)) descriptor.get = _;
                 if (_ = accept(result.set)) descriptor.set = _;
-                if (_ = accept(result.init)) initializers.push(_);
+                if (_ = accept(result.init)) initializers.unshift(_);
             }
             else if (_ = accept(result)) {
-                if (kind === "field") initializers.push(_);
+                if (kind === "field") initializers.unshift(_);
                 else descriptor[key] = _;
             }
         }
@@ -25975,10 +26021,10 @@ var __createBinding;
                 if (result === null || typeof result !== "object") throw new TypeError("Object expected");
                 if (_ = accept(result.get)) descriptor.get = _;
                 if (_ = accept(result.set)) descriptor.set = _;
-                if (_ = accept(result.init)) initializers.push(_);
+                if (_ = accept(result.init)) initializers.unshift(_);
             }
             else if (_ = accept(result)) {
-                if (kind === "field") initializers.push(_);
+                if (kind === "field") initializers.unshift(_);
                 else descriptor[key] = _;
             }
         }
@@ -26396,10 +26442,10 @@ var __createBinding;
                 if (result === null || typeof result !== "object") throw new TypeError("Object expected");
                 if (_ = accept(result.get)) descriptor.get = _;
                 if (_ = accept(result.set)) descriptor.set = _;
-                if (_ = accept(result.init)) initializers.push(_);
+                if (_ = accept(result.init)) initializers.unshift(_);
             }
             else if (_ = accept(result)) {
-                if (kind === "field") initializers.push(_);
+                if (kind === "field") initializers.unshift(_);
                 else descriptor[key] = _;
             }
         }
@@ -27259,10 +27305,10 @@ var __createBinding;
                 if (result === null || typeof result !== "object") throw new TypeError("Object expected");
                 if (_ = accept(result.get)) descriptor.get = _;
                 if (_ = accept(result.set)) descriptor.set = _;
-                if (_ = accept(result.init)) initializers.push(_);
+                if (_ = accept(result.init)) initializers.unshift(_);
             }
             else if (_ = accept(result)) {
-                if (kind === "field") initializers.push(_);
+                if (kind === "field") initializers.unshift(_);
                 else descriptor[key] = _;
             }
         }
@@ -27886,10 +27932,10 @@ var __createBinding;
                 if (result === null || typeof result !== "object") throw new TypeError("Object expected");
                 if (_ = accept(result.get)) descriptor.get = _;
                 if (_ = accept(result.set)) descriptor.set = _;
-                if (_ = accept(result.init)) initializers.push(_);
+                if (_ = accept(result.init)) initializers.unshift(_);
             }
             else if (_ = accept(result)) {
-                if (kind === "field") initializers.push(_);
+                if (kind === "field") initializers.unshift(_);
                 else descriptor[key] = _;
             }
         }
@@ -28324,10 +28370,10 @@ var __createBinding;
                 if (result === null || typeof result !== "object") throw new TypeError("Object expected");
                 if (_ = accept(result.get)) descriptor.get = _;
                 if (_ = accept(result.set)) descriptor.set = _;
-                if (_ = accept(result.init)) initializers.push(_);
+                if (_ = accept(result.init)) initializers.unshift(_);
             }
             else if (_ = accept(result)) {
-                if (kind === "field") initializers.push(_);
+                if (kind === "field") initializers.unshift(_);
                 else descriptor[key] = _;
             }
         }
@@ -28809,10 +28855,10 @@ var __createBinding;
                 if (result === null || typeof result !== "object") throw new TypeError("Object expected");
                 if (_ = accept(result.get)) descriptor.get = _;
                 if (_ = accept(result.set)) descriptor.set = _;
-                if (_ = accept(result.init)) initializers.push(_);
+                if (_ = accept(result.init)) initializers.unshift(_);
             }
             else if (_ = accept(result)) {
-                if (kind === "field") initializers.push(_);
+                if (kind === "field") initializers.unshift(_);
                 else descriptor[key] = _;
             }
         }
@@ -29382,10 +29428,10 @@ var __createBinding;
                 if (result === null || typeof result !== "object") throw new TypeError("Object expected");
                 if (_ = accept(result.get)) descriptor.get = _;
                 if (_ = accept(result.set)) descriptor.set = _;
-                if (_ = accept(result.init)) initializers.push(_);
+                if (_ = accept(result.init)) initializers.unshift(_);
             }
             else if (_ = accept(result)) {
-                if (kind === "field") initializers.push(_);
+                if (kind === "field") initializers.unshift(_);
                 else descriptor[key] = _;
             }
         }
@@ -29837,10 +29883,10 @@ var __createBinding;
                 if (result === null || typeof result !== "object") throw new TypeError("Object expected");
                 if (_ = accept(result.get)) descriptor.get = _;
                 if (_ = accept(result.set)) descriptor.set = _;
-                if (_ = accept(result.init)) initializers.push(_);
+                if (_ = accept(result.init)) initializers.unshift(_);
             }
             else if (_ = accept(result)) {
-                if (kind === "field") initializers.push(_);
+                if (kind === "field") initializers.unshift(_);
                 else descriptor[key] = _;
             }
         }
@@ -34160,10 +34206,10 @@ var __createBinding;
                 if (result === null || typeof result !== "object") throw new TypeError("Object expected");
                 if (_ = accept(result.get)) descriptor.get = _;
                 if (_ = accept(result.set)) descriptor.set = _;
-                if (_ = accept(result.init)) initializers.push(_);
+                if (_ = accept(result.init)) initializers.unshift(_);
             }
             else if (_ = accept(result)) {
-                if (kind === "field") initializers.push(_);
+                if (kind === "field") initializers.unshift(_);
                 else descriptor[key] = _;
             }
         }
@@ -34935,10 +34981,10 @@ var __createBinding;
                 if (result === null || typeof result !== "object") throw new TypeError("Object expected");
                 if (_ = accept(result.get)) descriptor.get = _;
                 if (_ = accept(result.set)) descriptor.set = _;
-                if (_ = accept(result.init)) initializers.push(_);
+                if (_ = accept(result.init)) initializers.unshift(_);
             }
             else if (_ = accept(result)) {
-                if (kind === "field") initializers.push(_);
+                if (kind === "field") initializers.unshift(_);
                 else descriptor[key] = _;
             }
         }
@@ -35467,10 +35513,10 @@ var __createBinding;
                 if (result === null || typeof result !== "object") throw new TypeError("Object expected");
                 if (_ = accept(result.get)) descriptor.get = _;
                 if (_ = accept(result.set)) descriptor.set = _;
-                if (_ = accept(result.init)) initializers.push(_);
+                if (_ = accept(result.init)) initializers.unshift(_);
             }
             else if (_ = accept(result)) {
-                if (kind === "field") initializers.push(_);
+                if (kind === "field") initializers.unshift(_);
                 else descriptor[key] = _;
             }
         }
@@ -36356,10 +36402,10 @@ var __createBinding;
                 if (result === null || typeof result !== "object") throw new TypeError("Object expected");
                 if (_ = accept(result.get)) descriptor.get = _;
                 if (_ = accept(result.set)) descriptor.set = _;
-                if (_ = accept(result.init)) initializers.push(_);
+                if (_ = accept(result.init)) initializers.unshift(_);
             }
             else if (_ = accept(result)) {
-                if (kind === "field") initializers.push(_);
+                if (kind === "field") initializers.unshift(_);
                 else descriptor[key] = _;
             }
         }
@@ -37403,10 +37449,10 @@ var __createBinding;
                 if (result === null || typeof result !== "object") throw new TypeError("Object expected");
                 if (_ = accept(result.get)) descriptor.get = _;
                 if (_ = accept(result.set)) descriptor.set = _;
-                if (_ = accept(result.init)) initializers.push(_);
+                if (_ = accept(result.init)) initializers.unshift(_);
             }
             else if (_ = accept(result)) {
-                if (kind === "field") initializers.push(_);
+                if (kind === "field") initializers.unshift(_);
                 else descriptor[key] = _;
             }
         }
@@ -38014,10 +38060,10 @@ var __createBinding;
                 if (result === null || typeof result !== "object") throw new TypeError("Object expected");
                 if (_ = accept(result.get)) descriptor.get = _;
                 if (_ = accept(result.set)) descriptor.set = _;
-                if (_ = accept(result.init)) initializers.push(_);
+                if (_ = accept(result.init)) initializers.unshift(_);
             }
             else if (_ = accept(result)) {
-                if (kind === "field") initializers.push(_);
+                if (kind === "field") initializers.unshift(_);
                 else descriptor[key] = _;
             }
         }
@@ -38697,10 +38743,10 @@ var __createBinding;
                 if (result === null || typeof result !== "object") throw new TypeError("Object expected");
                 if (_ = accept(result.get)) descriptor.get = _;
                 if (_ = accept(result.set)) descriptor.set = _;
-                if (_ = accept(result.init)) initializers.push(_);
+                if (_ = accept(result.init)) initializers.unshift(_);
             }
             else if (_ = accept(result)) {
-                if (kind === "field") initializers.push(_);
+                if (kind === "field") initializers.unshift(_);
                 else descriptor[key] = _;
             }
         }
@@ -39193,10 +39239,10 @@ var __createBinding;
                 if (result === null || typeof result !== "object") throw new TypeError("Object expected");
                 if (_ = accept(result.get)) descriptor.get = _;
                 if (_ = accept(result.set)) descriptor.set = _;
-                if (_ = accept(result.init)) initializers.push(_);
+                if (_ = accept(result.init)) initializers.unshift(_);
             }
             else if (_ = accept(result)) {
-                if (kind === "field") initializers.push(_);
+                if (kind === "field") initializers.unshift(_);
                 else descriptor[key] = _;
             }
         }
@@ -39673,10 +39719,10 @@ var __createBinding;
                 if (result === null || typeof result !== "object") throw new TypeError("Object expected");
                 if (_ = accept(result.get)) descriptor.get = _;
                 if (_ = accept(result.set)) descriptor.set = _;
-                if (_ = accept(result.init)) initializers.push(_);
+                if (_ = accept(result.init)) initializers.unshift(_);
             }
             else if (_ = accept(result)) {
-                if (kind === "field") initializers.push(_);
+                if (kind === "field") initializers.unshift(_);
                 else descriptor[key] = _;
             }
         }
@@ -40641,10 +40687,10 @@ var __createBinding;
                 if (result === null || typeof result !== "object") throw new TypeError("Object expected");
                 if (_ = accept(result.get)) descriptor.get = _;
                 if (_ = accept(result.set)) descriptor.set = _;
-                if (_ = accept(result.init)) initializers.push(_);
+                if (_ = accept(result.init)) initializers.unshift(_);
             }
             else if (_ = accept(result)) {
-                if (kind === "field") initializers.push(_);
+                if (kind === "field") initializers.unshift(_);
                 else descriptor[key] = _;
             }
         }
@@ -41197,10 +41243,10 @@ var __createBinding;
                 if (result === null || typeof result !== "object") throw new TypeError("Object expected");
                 if (_ = accept(result.get)) descriptor.get = _;
                 if (_ = accept(result.set)) descriptor.set = _;
-                if (_ = accept(result.init)) initializers.push(_);
+                if (_ = accept(result.init)) initializers.unshift(_);
             }
             else if (_ = accept(result)) {
-                if (kind === "field") initializers.push(_);
+                if (kind === "field") initializers.unshift(_);
                 else descriptor[key] = _;
             }
         }
@@ -42650,10 +42696,10 @@ var __createBinding;
                 if (result === null || typeof result !== "object") throw new TypeError("Object expected");
                 if (_ = accept(result.get)) descriptor.get = _;
                 if (_ = accept(result.set)) descriptor.set = _;
-                if (_ = accept(result.init)) initializers.push(_);
+                if (_ = accept(result.init)) initializers.unshift(_);
             }
             else if (_ = accept(result)) {
-                if (kind === "field") initializers.push(_);
+                if (kind === "field") initializers.unshift(_);
                 else descriptor[key] = _;
             }
         }
@@ -45480,10 +45526,10 @@ var __createBinding;
                 if (result === null || typeof result !== "object") throw new TypeError("Object expected");
                 if (_ = accept(result.get)) descriptor.get = _;
                 if (_ = accept(result.set)) descriptor.set = _;
-                if (_ = accept(result.init)) initializers.push(_);
+                if (_ = accept(result.init)) initializers.unshift(_);
             }
             else if (_ = accept(result)) {
-                if (kind === "field") initializers.push(_);
+                if (kind === "field") initializers.unshift(_);
                 else descriptor[key] = _;
             }
         }
@@ -46113,10 +46159,10 @@ var __createBinding;
                 if (result === null || typeof result !== "object") throw new TypeError("Object expected");
                 if (_ = accept(result.get)) descriptor.get = _;
                 if (_ = accept(result.set)) descriptor.set = _;
-                if (_ = accept(result.init)) initializers.push(_);
+                if (_ = accept(result.init)) initializers.unshift(_);
             }
             else if (_ = accept(result)) {
-                if (kind === "field") initializers.push(_);
+                if (kind === "field") initializers.unshift(_);
                 else descriptor[key] = _;
             }
         }
@@ -47840,10 +47886,10 @@ var __createBinding;
                 if (result === null || typeof result !== "object") throw new TypeError("Object expected");
                 if (_ = accept(result.get)) descriptor.get = _;
                 if (_ = accept(result.set)) descriptor.set = _;
-                if (_ = accept(result.init)) initializers.push(_);
+                if (_ = accept(result.init)) initializers.unshift(_);
             }
             else if (_ = accept(result)) {
-                if (kind === "field") initializers.push(_);
+                if (kind === "field") initializers.unshift(_);
                 else descriptor[key] = _;
             }
         }
@@ -48775,10 +48821,10 @@ var __createBinding;
                 if (result === null || typeof result !== "object") throw new TypeError("Object expected");
                 if (_ = accept(result.get)) descriptor.get = _;
                 if (_ = accept(result.set)) descriptor.set = _;
-                if (_ = accept(result.init)) initializers.push(_);
+                if (_ = accept(result.init)) initializers.unshift(_);
             }
             else if (_ = accept(result)) {
-                if (kind === "field") initializers.push(_);
+                if (kind === "field") initializers.unshift(_);
                 else descriptor[key] = _;
             }
         }
@@ -49503,7 +49549,7 @@ const resolveEndpoint = (ruleSetObject, options) => {
     var _a, _b, _c, _d, _e, _f;
     const { endpointParams, logger } = options;
     const { parameters, rules } = ruleSetObject;
-    (_b = (_a = options.logger) === null || _a === void 0 ? void 0 : _a.debug) === null || _b === void 0 ? void 0 : _b.call(_a, debug_1.debugId, `Initial EndpointParams: ${(0, debug_1.toDebugString)(endpointParams)}`);
+    (_b = (_a = options.logger) === null || _a === void 0 ? void 0 : _a.debug) === null || _b === void 0 ? void 0 : _b.call(_a, `${debug_1.debugId} Initial EndpointParams: ${(0, debug_1.toDebugString)(endpointParams)}`);
     const paramsWithDefault = Object.entries(parameters)
         .filter(([, v]) => v.default != null)
         .map(([k, v]) => [k, v.default]);
@@ -49531,7 +49577,7 @@ const resolveEndpoint = (ruleSetObject, options) => {
         catch (e) {
         }
     }
-    (_f = (_e = options.logger) === null || _e === void 0 ? void 0 : _e.debug) === null || _f === void 0 ? void 0 : _f.call(_e, debug_1.debugId, `Resolved endpoint: ${(0, debug_1.toDebugString)(endpoint)}`);
+    (_f = (_e = options.logger) === null || _e === void 0 ? void 0 : _e.debug) === null || _f === void 0 ? void 0 : _f.call(_e, `${debug_1.debugId} Resolved endpoint: ${(0, debug_1.toDebugString)(endpoint)}`);
     return endpoint;
 };
 exports.resolveEndpoint = resolveEndpoint;
@@ -50174,10 +50220,10 @@ var __createBinding;
                 if (result === null || typeof result !== "object") throw new TypeError("Object expected");
                 if (_ = accept(result.get)) descriptor.get = _;
                 if (_ = accept(result.set)) descriptor.set = _;
-                if (_ = accept(result.init)) initializers.push(_);
+                if (_ = accept(result.init)) initializers.unshift(_);
             }
             else if (_ = accept(result)) {
-                if (kind === "field") initializers.push(_);
+                if (kind === "field") initializers.unshift(_);
                 else descriptor[key] = _;
             }
         }
@@ -51393,10 +51439,10 @@ var __createBinding;
                 if (result === null || typeof result !== "object") throw new TypeError("Object expected");
                 if (_ = accept(result.get)) descriptor.get = _;
                 if (_ = accept(result.set)) descriptor.set = _;
-                if (_ = accept(result.init)) initializers.push(_);
+                if (_ = accept(result.init)) initializers.unshift(_);
             }
             else if (_ = accept(result)) {
-                if (kind === "field") initializers.push(_);
+                if (kind === "field") initializers.unshift(_);
                 else descriptor[key] = _;
             }
         }
@@ -51656,7 +51702,10 @@ const getAwsChunkedEncodingStream = (readableStream, options) => {
     const digest = checksumRequired ? streamHasher(checksumAlgorithmFn, readableStream) : undefined;
     const awsChunkedEncodingStream = new stream_1.Readable({ read: () => { } });
     readableStream.on("data", (data) => {
-        awsChunkedEncodingStream.push(`${(bodyLengthChecker(data) || 0).toString(16)}\r\n${data.toString()}\r\n`);
+        const length = bodyLengthChecker(data) || 0;
+        awsChunkedEncodingStream.push(`${length.toString(16)}\r\n`);
+        awsChunkedEncodingStream.push(data);
+        awsChunkedEncodingStream.push("\r\n");
     });
     readableStream.on("end", async () => {
         awsChunkedEncodingStream.push(`0\r\n`);
@@ -51876,10 +51925,10 @@ var __createBinding;
                 if (result === null || typeof result !== "object") throw new TypeError("Object expected");
                 if (_ = accept(result.get)) descriptor.get = _;
                 if (_ = accept(result.set)) descriptor.set = _;
-                if (_ = accept(result.init)) initializers.push(_);
+                if (_ = accept(result.init)) initializers.unshift(_);
             }
             else if (_ = accept(result)) {
-                if (kind === "field") initializers.push(_);
+                if (kind === "field") initializers.unshift(_);
                 else descriptor[key] = _;
             }
         }
@@ -53988,6 +54037,591 @@ var __createBinding;
             }
             else if (_ = accept(result)) {
                 if (kind === "field") initializers.push(_);
+                else descriptor[key] = _;
+            }
+        }
+        if (target) Object.defineProperty(target, contextIn.name, descriptor);
+        done = true;
+    };
+
+    __runInitializers = function (thisArg, initializers, value) {
+        var useValue = arguments.length > 2;
+        for (var i = 0; i < initializers.length; i++) {
+            value = useValue ? initializers[i].call(thisArg, value) : initializers[i].call(thisArg);
+        }
+        return useValue ? value : void 0;
+    };
+
+    __propKey = function (x) {
+        return typeof x === "symbol" ? x : "".concat(x);
+    };
+
+    __setFunctionName = function (f, name, prefix) {
+        if (typeof name === "symbol") name = name.description ? "[".concat(name.description, "]") : "";
+        return Object.defineProperty(f, "name", { configurable: true, value: prefix ? "".concat(prefix, " ", name) : name });
+    };
+
+    __metadata = function (metadataKey, metadataValue) {
+        if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(metadataKey, metadataValue);
+    };
+
+    __awaiter = function (thisArg, _arguments, P, generator) {
+        function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+        return new (P || (P = Promise))(function (resolve, reject) {
+            function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+            function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+            function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+            step((generator = generator.apply(thisArg, _arguments || [])).next());
+        });
+    };
+
+    __generator = function (thisArg, body) {
+        var _ = { label: 0, sent: function() { if (t[0] & 1) throw t[1]; return t[1]; }, trys: [], ops: [] }, f, y, t, g;
+        return g = { next: verb(0), "throw": verb(1), "return": verb(2) }, typeof Symbol === "function" && (g[Symbol.iterator] = function() { return this; }), g;
+        function verb(n) { return function (v) { return step([n, v]); }; }
+        function step(op) {
+            if (f) throw new TypeError("Generator is already executing.");
+            while (g && (g = 0, op[0] && (_ = 0)), _) try {
+                if (f = 1, y && (t = op[0] & 2 ? y["return"] : op[0] ? y["throw"] || ((t = y["return"]) && t.call(y), 0) : y.next) && !(t = t.call(y, op[1])).done) return t;
+                if (y = 0, t) op = [op[0] & 2, t.value];
+                switch (op[0]) {
+                    case 0: case 1: t = op; break;
+                    case 4: _.label++; return { value: op[1], done: false };
+                    case 5: _.label++; y = op[1]; op = [0]; continue;
+                    case 7: op = _.ops.pop(); _.trys.pop(); continue;
+                    default:
+                        if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (op[0] === 6 || op[0] === 2)) { _ = 0; continue; }
+                        if (op[0] === 3 && (!t || (op[1] > t[0] && op[1] < t[3]))) { _.label = op[1]; break; }
+                        if (op[0] === 6 && _.label < t[1]) { _.label = t[1]; t = op; break; }
+                        if (t && _.label < t[2]) { _.label = t[2]; _.ops.push(op); break; }
+                        if (t[2]) _.ops.pop();
+                        _.trys.pop(); continue;
+                }
+                op = body.call(thisArg, _);
+            } catch (e) { op = [6, e]; y = 0; } finally { f = t = 0; }
+            if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
+        }
+    };
+
+    __exportStar = function(m, o) {
+        for (var p in m) if (p !== "default" && !Object.prototype.hasOwnProperty.call(o, p)) __createBinding(o, m, p);
+    };
+
+    __createBinding = Object.create ? (function(o, m, k, k2) {
+        if (k2 === undefined) k2 = k;
+        var desc = Object.getOwnPropertyDescriptor(m, k);
+        if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+            desc = { enumerable: true, get: function() { return m[k]; } };
+        }
+        Object.defineProperty(o, k2, desc);
+    }) : (function(o, m, k, k2) {
+        if (k2 === undefined) k2 = k;
+        o[k2] = m[k];
+    });
+
+    __values = function (o) {
+        var s = typeof Symbol === "function" && Symbol.iterator, m = s && o[s], i = 0;
+        if (m) return m.call(o);
+        if (o && typeof o.length === "number") return {
+            next: function () {
+                if (o && i >= o.length) o = void 0;
+                return { value: o && o[i++], done: !o };
+            }
+        };
+        throw new TypeError(s ? "Object is not iterable." : "Symbol.iterator is not defined.");
+    };
+
+    __read = function (o, n) {
+        var m = typeof Symbol === "function" && o[Symbol.iterator];
+        if (!m) return o;
+        var i = m.call(o), r, ar = [], e;
+        try {
+            while ((n === void 0 || n-- > 0) && !(r = i.next()).done) ar.push(r.value);
+        }
+        catch (error) { e = { error: error }; }
+        finally {
+            try {
+                if (r && !r.done && (m = i["return"])) m.call(i);
+            }
+            finally { if (e) throw e.error; }
+        }
+        return ar;
+    };
+
+    /** @deprecated */
+    __spread = function () {
+        for (var ar = [], i = 0; i < arguments.length; i++)
+            ar = ar.concat(__read(arguments[i]));
+        return ar;
+    };
+
+    /** @deprecated */
+    __spreadArrays = function () {
+        for (var s = 0, i = 0, il = arguments.length; i < il; i++) s += arguments[i].length;
+        for (var r = Array(s), k = 0, i = 0; i < il; i++)
+            for (var a = arguments[i], j = 0, jl = a.length; j < jl; j++, k++)
+                r[k] = a[j];
+        return r;
+    };
+
+    __spreadArray = function (to, from, pack) {
+        if (pack || arguments.length === 2) for (var i = 0, l = from.length, ar; i < l; i++) {
+            if (ar || !(i in from)) {
+                if (!ar) ar = Array.prototype.slice.call(from, 0, i);
+                ar[i] = from[i];
+            }
+        }
+        return to.concat(ar || Array.prototype.slice.call(from));
+    };
+
+    __await = function (v) {
+        return this instanceof __await ? (this.v = v, this) : new __await(v);
+    };
+
+    __asyncGenerator = function (thisArg, _arguments, generator) {
+        if (!Symbol.asyncIterator) throw new TypeError("Symbol.asyncIterator is not defined.");
+        var g = generator.apply(thisArg, _arguments || []), i, q = [];
+        return i = {}, verb("next"), verb("throw"), verb("return"), i[Symbol.asyncIterator] = function () { return this; }, i;
+        function verb(n) { if (g[n]) i[n] = function (v) { return new Promise(function (a, b) { q.push([n, v, a, b]) > 1 || resume(n, v); }); }; }
+        function resume(n, v) { try { step(g[n](v)); } catch (e) { settle(q[0][3], e); } }
+        function step(r) { r.value instanceof __await ? Promise.resolve(r.value.v).then(fulfill, reject) : settle(q[0][2], r);  }
+        function fulfill(value) { resume("next", value); }
+        function reject(value) { resume("throw", value); }
+        function settle(f, v) { if (f(v), q.shift(), q.length) resume(q[0][0], q[0][1]); }
+    };
+
+    __asyncDelegator = function (o) {
+        var i, p;
+        return i = {}, verb("next"), verb("throw", function (e) { throw e; }), verb("return"), i[Symbol.iterator] = function () { return this; }, i;
+        function verb(n, f) { i[n] = o[n] ? function (v) { return (p = !p) ? { value: __await(o[n](v)), done: false } : f ? f(v) : v; } : f; }
+    };
+
+    __asyncValues = function (o) {
+        if (!Symbol.asyncIterator) throw new TypeError("Symbol.asyncIterator is not defined.");
+        var m = o[Symbol.asyncIterator], i;
+        return m ? m.call(o) : (o = typeof __values === "function" ? __values(o) : o[Symbol.iterator](), i = {}, verb("next"), verb("throw"), verb("return"), i[Symbol.asyncIterator] = function () { return this; }, i);
+        function verb(n) { i[n] = o[n] && function (v) { return new Promise(function (resolve, reject) { v = o[n](v), settle(resolve, reject, v.done, v.value); }); }; }
+        function settle(resolve, reject, d, v) { Promise.resolve(v).then(function(v) { resolve({ value: v, done: d }); }, reject); }
+    };
+
+    __makeTemplateObject = function (cooked, raw) {
+        if (Object.defineProperty) { Object.defineProperty(cooked, "raw", { value: raw }); } else { cooked.raw = raw; }
+        return cooked;
+    };
+
+    var __setModuleDefault = Object.create ? (function(o, v) {
+        Object.defineProperty(o, "default", { enumerable: true, value: v });
+    }) : function(o, v) {
+        o["default"] = v;
+    };
+
+    __importStar = function (mod) {
+        if (mod && mod.__esModule) return mod;
+        var result = {};
+        if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+        __setModuleDefault(result, mod);
+        return result;
+    };
+
+    __importDefault = function (mod) {
+        return (mod && mod.__esModule) ? mod : { "default": mod };
+    };
+
+    __classPrivateFieldGet = function (receiver, state, kind, f) {
+        if (kind === "a" && !f) throw new TypeError("Private accessor was defined without a getter");
+        if (typeof state === "function" ? receiver !== state || !f : !state.has(receiver)) throw new TypeError("Cannot read private member from an object whose class did not declare it");
+        return kind === "m" ? f : kind === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
+    };
+
+    __classPrivateFieldSet = function (receiver, state, value, kind, f) {
+        if (kind === "m") throw new TypeError("Private method is not writable");
+        if (kind === "a" && !f) throw new TypeError("Private accessor was defined without a setter");
+        if (typeof state === "function" ? receiver !== state || !f : !state.has(receiver)) throw new TypeError("Cannot write private member to an object whose class did not declare it");
+        return (kind === "a" ? f.call(receiver, value) : f ? f.value = value : state.set(receiver, value)), value;
+    };
+
+    __classPrivateFieldIn = function (state, receiver) {
+        if (receiver === null || (typeof receiver !== "object" && typeof receiver !== "function")) throw new TypeError("Cannot use 'in' operator on non-object");
+        return typeof state === "function" ? receiver === state : state.has(receiver);
+    };
+
+    exporter("__extends", __extends);
+    exporter("__assign", __assign);
+    exporter("__rest", __rest);
+    exporter("__decorate", __decorate);
+    exporter("__param", __param);
+    exporter("__esDecorate", __esDecorate);
+    exporter("__runInitializers", __runInitializers);
+    exporter("__propKey", __propKey);
+    exporter("__setFunctionName", __setFunctionName);
+    exporter("__metadata", __metadata);
+    exporter("__awaiter", __awaiter);
+    exporter("__generator", __generator);
+    exporter("__exportStar", __exportStar);
+    exporter("__createBinding", __createBinding);
+    exporter("__values", __values);
+    exporter("__read", __read);
+    exporter("__spread", __spread);
+    exporter("__spreadArrays", __spreadArrays);
+    exporter("__spreadArray", __spreadArray);
+    exporter("__await", __await);
+    exporter("__asyncGenerator", __asyncGenerator);
+    exporter("__asyncDelegator", __asyncDelegator);
+    exporter("__asyncValues", __asyncValues);
+    exporter("__makeTemplateObject", __makeTemplateObject);
+    exporter("__importStar", __importStar);
+    exporter("__importDefault", __importDefault);
+    exporter("__classPrivateFieldGet", __classPrivateFieldGet);
+    exporter("__classPrivateFieldSet", __classPrivateFieldSet);
+    exporter("__classPrivateFieldIn", __classPrivateFieldIn);
+});
+
+
+/***/ }),
+
+/***/ 89179:
+/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.Field = void 0;
+const types_1 = __nccwpck_require__(19135);
+class Field {
+    constructor({ name, kind = types_1.FieldPosition.HEADER, values = [] }) {
+        this.name = name;
+        this.kind = kind;
+        this.values = values;
+    }
+    add(value) {
+        this.values.push(value);
+    }
+    set(values) {
+        this.values = values;
+    }
+    remove(value) {
+        this.values = this.values.filter((v) => v !== value);
+    }
+    toString() {
+        return this.values.map((v) => (v.includes(",") || v.includes(" ") ? `"${v}"` : v)).join(", ");
+    }
+    get() {
+        return this.values;
+    }
+}
+exports.Field = Field;
+
+
+/***/ }),
+
+/***/ 99242:
+/***/ ((__unused_webpack_module, exports) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.Fields = void 0;
+class Fields {
+    constructor({ fields = [], encoding = "utf-8" }) {
+        this.entries = {};
+        fields.forEach(this.setField.bind(this));
+        this.encoding = encoding;
+    }
+    setField(field) {
+        this.entries[field.name.toLowerCase()] = field;
+    }
+    getField(name) {
+        return this.entries[name.toLowerCase()];
+    }
+    removeField(name) {
+        delete this.entries[name.toLowerCase()];
+    }
+    getByType(kind) {
+        return Object.values(this.entries).filter((field) => field.kind === kind);
+    }
+}
+exports.Fields = Fields;
+
+
+/***/ }),
+
+/***/ 63206:
+/***/ ((__unused_webpack_module, exports) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+
+
+/***/ }),
+
+/***/ 38746:
+/***/ ((__unused_webpack_module, exports) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.HttpRequest = void 0;
+class HttpRequest {
+    constructor(options) {
+        this.method = options.method || "GET";
+        this.hostname = options.hostname || "localhost";
+        this.port = options.port;
+        this.query = options.query || {};
+        this.headers = options.headers || {};
+        this.body = options.body;
+        this.protocol = options.protocol
+            ? options.protocol.slice(-1) !== ":"
+                ? `${options.protocol}:`
+                : options.protocol
+            : "https:";
+        this.path = options.path ? (options.path.charAt(0) !== "/" ? `/${options.path}` : options.path) : "/";
+    }
+    static isInstance(request) {
+        if (!request)
+            return false;
+        const req = request;
+        return ("method" in req &&
+            "protocol" in req &&
+            "hostname" in req &&
+            "path" in req &&
+            typeof req["query"] === "object" &&
+            typeof req["headers"] === "object");
+    }
+    clone() {
+        const cloned = new HttpRequest({
+            ...this,
+            headers: { ...this.headers },
+        });
+        if (cloned.query)
+            cloned.query = cloneQuery(cloned.query);
+        return cloned;
+    }
+}
+exports.HttpRequest = HttpRequest;
+function cloneQuery(query) {
+    return Object.keys(query).reduce((carry, paramName) => {
+        const param = query[paramName];
+        return {
+            ...carry,
+            [paramName]: Array.isArray(param) ? [...param] : param,
+        };
+    }, {});
+}
+
+
+/***/ }),
+
+/***/ 26322:
+/***/ ((__unused_webpack_module, exports) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.HttpResponse = void 0;
+class HttpResponse {
+    constructor(options) {
+        this.statusCode = options.statusCode;
+        this.headers = options.headers || {};
+        this.body = options.body;
+    }
+    static isInstance(response) {
+        if (!response)
+            return false;
+        const resp = response;
+        return typeof resp.statusCode === "number" && typeof resp.headers === "object";
+    }
+}
+exports.HttpResponse = HttpResponse;
+
+
+/***/ }),
+
+/***/ 64418:
+/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+const tslib_1 = __nccwpck_require__(88052);
+tslib_1.__exportStar(__nccwpck_require__(89179), exports);
+tslib_1.__exportStar(__nccwpck_require__(99242), exports);
+tslib_1.__exportStar(__nccwpck_require__(63206), exports);
+tslib_1.__exportStar(__nccwpck_require__(38746), exports);
+tslib_1.__exportStar(__nccwpck_require__(26322), exports);
+tslib_1.__exportStar(__nccwpck_require__(61466), exports);
+tslib_1.__exportStar(__nccwpck_require__(19135), exports);
+
+
+/***/ }),
+
+/***/ 61466:
+/***/ ((__unused_webpack_module, exports) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.isValidHostname = void 0;
+function isValidHostname(hostname) {
+    const hostPattern = /^[a-z0-9][a-z0-9\.\-]*[a-z0-9]$/;
+    return hostPattern.test(hostname);
+}
+exports.isValidHostname = isValidHostname;
+
+
+/***/ }),
+
+/***/ 19135:
+/***/ ((__unused_webpack_module, exports) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.FieldPosition = void 0;
+var FieldPosition;
+(function (FieldPosition) {
+    FieldPosition[FieldPosition["HEADER"] = 0] = "HEADER";
+    FieldPosition[FieldPosition["TRAILER"] = 1] = "TRAILER";
+})(FieldPosition = exports.FieldPosition || (exports.FieldPosition = {}));
+
+
+/***/ }),
+
+/***/ 88052:
+/***/ ((module) => {
+
+/******************************************************************************
+Copyright (c) Microsoft Corporation.
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+PERFORMANCE OF THIS SOFTWARE.
+***************************************************************************** */
+/* global global, define, System, Reflect, Promise */
+var __extends;
+var __assign;
+var __rest;
+var __decorate;
+var __param;
+var __esDecorate;
+var __runInitializers;
+var __propKey;
+var __setFunctionName;
+var __metadata;
+var __awaiter;
+var __generator;
+var __exportStar;
+var __values;
+var __read;
+var __spread;
+var __spreadArrays;
+var __spreadArray;
+var __await;
+var __asyncGenerator;
+var __asyncDelegator;
+var __asyncValues;
+var __makeTemplateObject;
+var __importStar;
+var __importDefault;
+var __classPrivateFieldGet;
+var __classPrivateFieldSet;
+var __classPrivateFieldIn;
+var __createBinding;
+(function (factory) {
+    var root = typeof global === "object" ? global : typeof self === "object" ? self : typeof this === "object" ? this : {};
+    if (typeof define === "function" && define.amd) {
+        define("tslib", ["exports"], function (exports) { factory(createExporter(root, createExporter(exports))); });
+    }
+    else if ( true && typeof module.exports === "object") {
+        factory(createExporter(root, createExporter(module.exports)));
+    }
+    else {
+        factory(createExporter(root));
+    }
+    function createExporter(exports, previous) {
+        if (exports !== root) {
+            if (typeof Object.create === "function") {
+                Object.defineProperty(exports, "__esModule", { value: true });
+            }
+            else {
+                exports.__esModule = true;
+            }
+        }
+        return function (id, v) { return exports[id] = previous ? previous(id, v) : v; };
+    }
+})
+(function (exporter) {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p]; };
+
+    __extends = function (d, b) {
+        if (typeof b !== "function" && b !== null)
+            throw new TypeError("Class extends value " + String(b) + " is not a constructor or null");
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+
+    __assign = Object.assign || function (t) {
+        for (var s, i = 1, n = arguments.length; i < n; i++) {
+            s = arguments[i];
+            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
+        }
+        return t;
+    };
+
+    __rest = function (s, e) {
+        var t = {};
+        for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0)
+            t[p] = s[p];
+        if (s != null && typeof Object.getOwnPropertySymbols === "function")
+            for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) {
+                if (e.indexOf(p[i]) < 0 && Object.prototype.propertyIsEnumerable.call(s, p[i]))
+                    t[p[i]] = s[p[i]];
+            }
+        return t;
+    };
+
+    __decorate = function (decorators, target, key, desc) {
+        var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+        if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+        else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+        return c > 3 && r && Object.defineProperty(target, key, r), r;
+    };
+
+    __param = function (paramIndex, decorator) {
+        return function (target, key) { decorator(target, key, paramIndex); }
+    };
+
+    __esDecorate = function (ctor, descriptorIn, decorators, contextIn, initializers, extraInitializers) {
+        function accept(f) { if (f !== void 0 && typeof f !== "function") throw new TypeError("Function expected"); return f; }
+        var kind = contextIn.kind, key = kind === "getter" ? "get" : kind === "setter" ? "set" : "value";
+        var target = !descriptorIn && ctor ? contextIn["static"] ? ctor : ctor.prototype : null;
+        var descriptor = descriptorIn || (target ? Object.getOwnPropertyDescriptor(target, contextIn.name) : {});
+        var _, done = false;
+        for (var i = decorators.length - 1; i >= 0; i--) {
+            var context = {};
+            for (var p in contextIn) context[p] = p === "access" ? {} : contextIn[p];
+            for (var p in contextIn.access) context.access[p] = contextIn.access[p];
+            context.addInitializer = function (f) { if (done) throw new TypeError("Cannot add initializers after decoration has completed"); extraInitializers.push(accept(f || null)); };
+            var result = (0, decorators[i])(kind === "accessor" ? { get: descriptor.get, set: descriptor.set } : descriptor[key], context);
+            if (kind === "accessor") {
+                if (result === void 0) continue;
+                if (result === null || typeof result !== "object") throw new TypeError("Object expected");
+                if (_ = accept(result.get)) descriptor.get = _;
+                if (_ = accept(result.set)) descriptor.set = _;
+                if (_ = accept(result.init)) initializers.unshift(_);
+            }
+            else if (_ = accept(result)) {
+                if (kind === "field") initializers.unshift(_);
                 else descriptor[key] = _;
             }
         }
@@ -57319,7 +57953,7 @@ module.exports = require("util");
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"name":"@aws-sdk/client-s3","description":"AWS SDK for JavaScript S3 Client for Node.js, Browser and React Native","version":"3.329.0","scripts":{"build":"concurrently \'yarn:build:cjs\' \'yarn:build:es\' \'yarn:build:types\'","build:cjs":"tsc -p tsconfig.cjs.json","build:docs":"typedoc","build:es":"tsc -p tsconfig.es.json","build:include:deps":"lerna run --scope $npm_package_name --include-dependencies build","build:types":"tsc -p tsconfig.types.json","build:types:downlevel":"downlevel-dts dist-types dist-types/ts3.4","clean":"rimraf ./dist-* && rimraf *.tsbuildinfo","extract:docs":"api-extractor run --local","generate:client":"node ../../scripts/generate-clients/single-service --solo s3","test":"yarn test:unit","test:e2e":"ts-mocha test/**/*.ispec.ts && karma start karma.conf.js","test:unit":"ts-mocha test/**/*.spec.ts"},"main":"./dist-cjs/index.js","types":"./dist-types/index.d.ts","module":"./dist-es/index.js","sideEffects":false,"dependencies":{"@aws-crypto/sha1-browser":"3.0.0","@aws-crypto/sha256-browser":"3.0.0","@aws-crypto/sha256-js":"3.0.0","@aws-sdk/client-sts":"3.329.0","@aws-sdk/config-resolver":"3.329.0","@aws-sdk/credential-provider-node":"3.329.0","@aws-sdk/eventstream-serde-browser":"3.329.0","@aws-sdk/eventstream-serde-config-resolver":"3.329.0","@aws-sdk/eventstream-serde-node":"3.329.0","@aws-sdk/fetch-http-handler":"3.329.0","@aws-sdk/hash-blob-browser":"3.329.0","@aws-sdk/hash-node":"3.329.0","@aws-sdk/hash-stream-node":"3.329.0","@aws-sdk/invalid-dependency":"3.329.0","@aws-sdk/md5-js":"3.329.0","@aws-sdk/middleware-bucket-endpoint":"3.329.0","@aws-sdk/middleware-content-length":"3.329.0","@aws-sdk/middleware-endpoint":"3.329.0","@aws-sdk/middleware-expect-continue":"3.329.0","@aws-sdk/middleware-flexible-checksums":"3.329.0","@aws-sdk/middleware-host-header":"3.329.0","@aws-sdk/middleware-location-constraint":"3.329.0","@aws-sdk/middleware-logger":"3.329.0","@aws-sdk/middleware-recursion-detection":"3.329.0","@aws-sdk/middleware-retry":"3.329.0","@aws-sdk/middleware-sdk-s3":"3.329.0","@aws-sdk/middleware-serde":"3.329.0","@aws-sdk/middleware-signing":"3.329.0","@aws-sdk/middleware-ssec":"3.329.0","@aws-sdk/middleware-stack":"3.329.0","@aws-sdk/middleware-user-agent":"3.329.0","@aws-sdk/node-config-provider":"3.329.0","@aws-sdk/node-http-handler":"3.329.0","@aws-sdk/protocol-http":"3.329.0","@aws-sdk/signature-v4-multi-region":"3.329.0","@aws-sdk/smithy-client":"3.329.0","@aws-sdk/types":"3.329.0","@aws-sdk/url-parser":"3.329.0","@aws-sdk/util-base64":"3.310.0","@aws-sdk/util-body-length-browser":"3.310.0","@aws-sdk/util-body-length-node":"3.310.0","@aws-sdk/util-defaults-mode-browser":"3.329.0","@aws-sdk/util-defaults-mode-node":"3.329.0","@aws-sdk/util-endpoints":"3.329.0","@aws-sdk/util-retry":"3.329.0","@aws-sdk/util-stream-browser":"3.329.0","@aws-sdk/util-stream-node":"3.329.0","@aws-sdk/util-user-agent-browser":"3.329.0","@aws-sdk/util-user-agent-node":"3.329.0","@aws-sdk/util-utf8":"3.310.0","@aws-sdk/util-waiter":"3.329.0","@aws-sdk/xml-builder":"3.310.0","fast-xml-parser":"4.1.2","tslib":"^2.5.0"},"devDependencies":{"@aws-sdk/service-client-documentation-generator":"3.310.0","@tsconfig/node14":"1.0.3","@types/chai":"^4.2.11","@types/mocha":"^8.0.4","@types/node":"^14.14.31","concurrently":"7.0.0","downlevel-dts":"0.10.1","rimraf":"3.0.2","typedoc":"0.23.23","typescript":"~4.9.5"},"engines":{"node":">=14.0.0"},"typesVersions":{"<4.0":{"dist-types/*":["dist-types/ts3.4/*"]}},"files":["dist-*/**"],"author":{"name":"AWS SDK for JavaScript Team","url":"https://aws.amazon.com/javascript/"},"license":"Apache-2.0","browser":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.browser"},"react-native":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.native"},"homepage":"https://github.com/aws/aws-sdk-js-v3/tree/main/clients/client-s3","repository":{"type":"git","url":"https://github.com/aws/aws-sdk-js-v3.git","directory":"clients/client-s3"}}');
+module.exports = JSON.parse('{"name":"@aws-sdk/client-s3","description":"AWS SDK for JavaScript S3 Client for Node.js, Browser and React Native","version":"3.335.0","scripts":{"build":"concurrently \'yarn:build:cjs\' \'yarn:build:es\' \'yarn:build:types\'","build:cjs":"tsc -p tsconfig.cjs.json","build:docs":"typedoc","build:es":"tsc -p tsconfig.es.json","build:include:deps":"lerna run --scope $npm_package_name --include-dependencies build","build:types":"tsc -p tsconfig.types.json","build:types:downlevel":"downlevel-dts dist-types dist-types/ts3.4","clean":"rimraf ./dist-* && rimraf *.tsbuildinfo","extract:docs":"api-extractor run --local","generate:client":"node ../../scripts/generate-clients/single-service --solo s3","test":"yarn test:unit","test:e2e":"ts-mocha test/**/*.ispec.ts && karma start karma.conf.js","test:unit":"ts-mocha test/**/*.spec.ts"},"main":"./dist-cjs/index.js","types":"./dist-types/index.d.ts","module":"./dist-es/index.js","sideEffects":false,"dependencies":{"@aws-crypto/sha1-browser":"3.0.0","@aws-crypto/sha256-browser":"3.0.0","@aws-crypto/sha256-js":"3.0.0","@aws-sdk/client-sts":"3.335.0","@aws-sdk/config-resolver":"3.329.0","@aws-sdk/credential-provider-node":"3.335.0","@aws-sdk/eventstream-serde-browser":"3.329.0","@aws-sdk/eventstream-serde-config-resolver":"3.329.0","@aws-sdk/eventstream-serde-node":"3.329.0","@aws-sdk/fetch-http-handler":"3.329.0","@aws-sdk/hash-blob-browser":"3.329.0","@aws-sdk/hash-node":"3.329.0","@aws-sdk/hash-stream-node":"3.329.0","@aws-sdk/invalid-dependency":"3.329.0","@aws-sdk/md5-js":"3.329.0","@aws-sdk/middleware-bucket-endpoint":"3.329.0","@aws-sdk/middleware-content-length":"3.329.0","@aws-sdk/middleware-endpoint":"3.329.0","@aws-sdk/middleware-expect-continue":"3.329.0","@aws-sdk/middleware-flexible-checksums":"3.331.0","@aws-sdk/middleware-host-header":"3.329.0","@aws-sdk/middleware-location-constraint":"3.329.0","@aws-sdk/middleware-logger":"3.329.0","@aws-sdk/middleware-recursion-detection":"3.329.0","@aws-sdk/middleware-retry":"3.329.0","@aws-sdk/middleware-sdk-s3":"3.329.0","@aws-sdk/middleware-serde":"3.329.0","@aws-sdk/middleware-signing":"3.329.0","@aws-sdk/middleware-ssec":"3.329.0","@aws-sdk/middleware-stack":"3.329.0","@aws-sdk/middleware-user-agent":"3.332.0","@aws-sdk/node-config-provider":"3.329.0","@aws-sdk/node-http-handler":"3.329.0","@aws-sdk/signature-v4-multi-region":"3.329.0","@aws-sdk/smithy-client":"3.329.0","@aws-sdk/types":"3.329.0","@aws-sdk/url-parser":"3.329.0","@aws-sdk/util-base64":"3.310.0","@aws-sdk/util-body-length-browser":"3.310.0","@aws-sdk/util-body-length-node":"3.310.0","@aws-sdk/util-defaults-mode-browser":"3.329.0","@aws-sdk/util-defaults-mode-node":"3.329.0","@aws-sdk/util-endpoints":"3.332.0","@aws-sdk/util-retry":"3.329.0","@aws-sdk/util-stream-browser":"3.329.0","@aws-sdk/util-stream-node":"3.331.0","@aws-sdk/util-user-agent-browser":"3.329.0","@aws-sdk/util-user-agent-node":"3.329.0","@aws-sdk/util-utf8":"3.310.0","@aws-sdk/util-waiter":"3.329.0","@aws-sdk/xml-builder":"3.310.0","@smithy/protocol-http":"^1.0.1","@smithy/types":"^1.0.0","fast-xml-parser":"4.1.2","tslib":"^2.5.0"},"devDependencies":{"@aws-sdk/service-client-documentation-generator":"3.310.0","@tsconfig/node14":"1.0.3","@types/chai":"^4.2.11","@types/mocha":"^8.0.4","@types/node":"^14.14.31","concurrently":"7.0.0","downlevel-dts":"0.10.1","rimraf":"3.0.2","typedoc":"0.23.23","typescript":"~4.9.5"},"engines":{"node":">=14.0.0"},"typesVersions":{"<4.0":{"dist-types/*":["dist-types/ts3.4/*"]}},"files":["dist-*/**"],"author":{"name":"AWS SDK for JavaScript Team","url":"https://aws.amazon.com/javascript/"},"license":"Apache-2.0","browser":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.browser"},"react-native":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.native"},"homepage":"https://github.com/aws/aws-sdk-js-v3/tree/main/clients/client-s3","repository":{"type":"git","url":"https://github.com/aws/aws-sdk-js-v3.git","directory":"clients/client-s3"}}');
 
 /***/ }),
 
@@ -57327,7 +57961,7 @@ module.exports = JSON.parse('{"name":"@aws-sdk/client-s3","description":"AWS SDK
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"name":"@aws-sdk/client-sso-oidc","description":"AWS SDK for JavaScript Sso Oidc Client for Node.js, Browser and React Native","version":"3.329.0","scripts":{"build":"concurrently \'yarn:build:cjs\' \'yarn:build:es\' \'yarn:build:types\'","build:cjs":"tsc -p tsconfig.cjs.json","build:docs":"typedoc","build:es":"tsc -p tsconfig.es.json","build:include:deps":"lerna run --scope $npm_package_name --include-dependencies build","build:types":"tsc -p tsconfig.types.json","build:types:downlevel":"downlevel-dts dist-types dist-types/ts3.4","clean":"rimraf ./dist-* && rimraf *.tsbuildinfo","extract:docs":"api-extractor run --local","generate:client":"node ../../scripts/generate-clients/single-service --solo sso-oidc"},"main":"./dist-cjs/index.js","types":"./dist-types/index.d.ts","module":"./dist-es/index.js","sideEffects":false,"dependencies":{"@aws-crypto/sha256-browser":"3.0.0","@aws-crypto/sha256-js":"3.0.0","@aws-sdk/config-resolver":"3.329.0","@aws-sdk/fetch-http-handler":"3.329.0","@aws-sdk/hash-node":"3.329.0","@aws-sdk/invalid-dependency":"3.329.0","@aws-sdk/middleware-content-length":"3.329.0","@aws-sdk/middleware-endpoint":"3.329.0","@aws-sdk/middleware-host-header":"3.329.0","@aws-sdk/middleware-logger":"3.329.0","@aws-sdk/middleware-recursion-detection":"3.329.0","@aws-sdk/middleware-retry":"3.329.0","@aws-sdk/middleware-serde":"3.329.0","@aws-sdk/middleware-stack":"3.329.0","@aws-sdk/middleware-user-agent":"3.329.0","@aws-sdk/node-config-provider":"3.329.0","@aws-sdk/node-http-handler":"3.329.0","@aws-sdk/protocol-http":"3.329.0","@aws-sdk/smithy-client":"3.329.0","@aws-sdk/types":"3.329.0","@aws-sdk/url-parser":"3.329.0","@aws-sdk/util-base64":"3.310.0","@aws-sdk/util-body-length-browser":"3.310.0","@aws-sdk/util-body-length-node":"3.310.0","@aws-sdk/util-defaults-mode-browser":"3.329.0","@aws-sdk/util-defaults-mode-node":"3.329.0","@aws-sdk/util-endpoints":"3.329.0","@aws-sdk/util-retry":"3.329.0","@aws-sdk/util-user-agent-browser":"3.329.0","@aws-sdk/util-user-agent-node":"3.329.0","@aws-sdk/util-utf8":"3.310.0","tslib":"^2.5.0"},"devDependencies":{"@aws-sdk/service-client-documentation-generator":"3.310.0","@tsconfig/node14":"1.0.3","@types/node":"^14.14.31","concurrently":"7.0.0","downlevel-dts":"0.10.1","rimraf":"3.0.2","typedoc":"0.23.23","typescript":"~4.9.5"},"engines":{"node":">=14.0.0"},"typesVersions":{"<4.0":{"dist-types/*":["dist-types/ts3.4/*"]}},"files":["dist-*/**"],"author":{"name":"AWS SDK for JavaScript Team","url":"https://aws.amazon.com/javascript/"},"license":"Apache-2.0","browser":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.browser"},"react-native":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.native"},"homepage":"https://github.com/aws/aws-sdk-js-v3/tree/main/clients/client-sso-oidc","repository":{"type":"git","url":"https://github.com/aws/aws-sdk-js-v3.git","directory":"clients/client-sso-oidc"}}');
+module.exports = JSON.parse('{"name":"@aws-sdk/client-sso-oidc","description":"AWS SDK for JavaScript Sso Oidc Client for Node.js, Browser and React Native","version":"3.335.0","scripts":{"build":"concurrently \'yarn:build:cjs\' \'yarn:build:es\' \'yarn:build:types\'","build:cjs":"tsc -p tsconfig.cjs.json","build:docs":"typedoc","build:es":"tsc -p tsconfig.es.json","build:include:deps":"lerna run --scope $npm_package_name --include-dependencies build","build:types":"tsc -p tsconfig.types.json","build:types:downlevel":"downlevel-dts dist-types dist-types/ts3.4","clean":"rimraf ./dist-* && rimraf *.tsbuildinfo","extract:docs":"api-extractor run --local","generate:client":"node ../../scripts/generate-clients/single-service --solo sso-oidc"},"main":"./dist-cjs/index.js","types":"./dist-types/index.d.ts","module":"./dist-es/index.js","sideEffects":false,"dependencies":{"@aws-crypto/sha256-browser":"3.0.0","@aws-crypto/sha256-js":"3.0.0","@aws-sdk/config-resolver":"3.329.0","@aws-sdk/fetch-http-handler":"3.329.0","@aws-sdk/hash-node":"3.329.0","@aws-sdk/invalid-dependency":"3.329.0","@aws-sdk/middleware-content-length":"3.329.0","@aws-sdk/middleware-endpoint":"3.329.0","@aws-sdk/middleware-host-header":"3.329.0","@aws-sdk/middleware-logger":"3.329.0","@aws-sdk/middleware-recursion-detection":"3.329.0","@aws-sdk/middleware-retry":"3.329.0","@aws-sdk/middleware-serde":"3.329.0","@aws-sdk/middleware-stack":"3.329.0","@aws-sdk/middleware-user-agent":"3.332.0","@aws-sdk/node-config-provider":"3.329.0","@aws-sdk/node-http-handler":"3.329.0","@aws-sdk/smithy-client":"3.329.0","@aws-sdk/types":"3.329.0","@aws-sdk/url-parser":"3.329.0","@aws-sdk/util-base64":"3.310.0","@aws-sdk/util-body-length-browser":"3.310.0","@aws-sdk/util-body-length-node":"3.310.0","@aws-sdk/util-defaults-mode-browser":"3.329.0","@aws-sdk/util-defaults-mode-node":"3.329.0","@aws-sdk/util-endpoints":"3.332.0","@aws-sdk/util-retry":"3.329.0","@aws-sdk/util-user-agent-browser":"3.329.0","@aws-sdk/util-user-agent-node":"3.329.0","@aws-sdk/util-utf8":"3.310.0","@smithy/protocol-http":"^1.0.1","@smithy/types":"^1.0.0","tslib":"^2.5.0"},"devDependencies":{"@aws-sdk/service-client-documentation-generator":"3.310.0","@tsconfig/node14":"1.0.3","@types/node":"^14.14.31","concurrently":"7.0.0","downlevel-dts":"0.10.1","rimraf":"3.0.2","typedoc":"0.23.23","typescript":"~4.9.5"},"engines":{"node":">=14.0.0"},"typesVersions":{"<4.0":{"dist-types/*":["dist-types/ts3.4/*"]}},"files":["dist-*/**"],"author":{"name":"AWS SDK for JavaScript Team","url":"https://aws.amazon.com/javascript/"},"license":"Apache-2.0","browser":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.browser"},"react-native":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.native"},"homepage":"https://github.com/aws/aws-sdk-js-v3/tree/main/clients/client-sso-oidc","repository":{"type":"git","url":"https://github.com/aws/aws-sdk-js-v3.git","directory":"clients/client-sso-oidc"}}');
 
 /***/ }),
 
@@ -57335,7 +57969,7 @@ module.exports = JSON.parse('{"name":"@aws-sdk/client-sso-oidc","description":"A
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"name":"@aws-sdk/client-sso","description":"AWS SDK for JavaScript Sso Client for Node.js, Browser and React Native","version":"3.329.0","scripts":{"build":"concurrently \'yarn:build:cjs\' \'yarn:build:es\' \'yarn:build:types\'","build:cjs":"tsc -p tsconfig.cjs.json","build:docs":"typedoc","build:es":"tsc -p tsconfig.es.json","build:include:deps":"lerna run --scope $npm_package_name --include-dependencies build","build:types":"tsc -p tsconfig.types.json","build:types:downlevel":"downlevel-dts dist-types dist-types/ts3.4","clean":"rimraf ./dist-* && rimraf *.tsbuildinfo","extract:docs":"api-extractor run --local","generate:client":"node ../../scripts/generate-clients/single-service --solo sso"},"main":"./dist-cjs/index.js","types":"./dist-types/index.d.ts","module":"./dist-es/index.js","sideEffects":false,"dependencies":{"@aws-crypto/sha256-browser":"3.0.0","@aws-crypto/sha256-js":"3.0.0","@aws-sdk/config-resolver":"3.329.0","@aws-sdk/fetch-http-handler":"3.329.0","@aws-sdk/hash-node":"3.329.0","@aws-sdk/invalid-dependency":"3.329.0","@aws-sdk/middleware-content-length":"3.329.0","@aws-sdk/middleware-endpoint":"3.329.0","@aws-sdk/middleware-host-header":"3.329.0","@aws-sdk/middleware-logger":"3.329.0","@aws-sdk/middleware-recursion-detection":"3.329.0","@aws-sdk/middleware-retry":"3.329.0","@aws-sdk/middleware-serde":"3.329.0","@aws-sdk/middleware-stack":"3.329.0","@aws-sdk/middleware-user-agent":"3.329.0","@aws-sdk/node-config-provider":"3.329.0","@aws-sdk/node-http-handler":"3.329.0","@aws-sdk/protocol-http":"3.329.0","@aws-sdk/smithy-client":"3.329.0","@aws-sdk/types":"3.329.0","@aws-sdk/url-parser":"3.329.0","@aws-sdk/util-base64":"3.310.0","@aws-sdk/util-body-length-browser":"3.310.0","@aws-sdk/util-body-length-node":"3.310.0","@aws-sdk/util-defaults-mode-browser":"3.329.0","@aws-sdk/util-defaults-mode-node":"3.329.0","@aws-sdk/util-endpoints":"3.329.0","@aws-sdk/util-retry":"3.329.0","@aws-sdk/util-user-agent-browser":"3.329.0","@aws-sdk/util-user-agent-node":"3.329.0","@aws-sdk/util-utf8":"3.310.0","tslib":"^2.5.0"},"devDependencies":{"@aws-sdk/service-client-documentation-generator":"3.310.0","@tsconfig/node14":"1.0.3","@types/node":"^14.14.31","concurrently":"7.0.0","downlevel-dts":"0.10.1","rimraf":"3.0.2","typedoc":"0.23.23","typescript":"~4.9.5"},"engines":{"node":">=14.0.0"},"typesVersions":{"<4.0":{"dist-types/*":["dist-types/ts3.4/*"]}},"files":["dist-*/**"],"author":{"name":"AWS SDK for JavaScript Team","url":"https://aws.amazon.com/javascript/"},"license":"Apache-2.0","browser":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.browser"},"react-native":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.native"},"homepage":"https://github.com/aws/aws-sdk-js-v3/tree/main/clients/client-sso","repository":{"type":"git","url":"https://github.com/aws/aws-sdk-js-v3.git","directory":"clients/client-sso"}}');
+module.exports = JSON.parse('{"name":"@aws-sdk/client-sso","description":"AWS SDK for JavaScript Sso Client for Node.js, Browser and React Native","version":"3.335.0","scripts":{"build":"concurrently \'yarn:build:cjs\' \'yarn:build:es\' \'yarn:build:types\'","build:cjs":"tsc -p tsconfig.cjs.json","build:docs":"typedoc","build:es":"tsc -p tsconfig.es.json","build:include:deps":"lerna run --scope $npm_package_name --include-dependencies build","build:types":"tsc -p tsconfig.types.json","build:types:downlevel":"downlevel-dts dist-types dist-types/ts3.4","clean":"rimraf ./dist-* && rimraf *.tsbuildinfo","extract:docs":"api-extractor run --local","generate:client":"node ../../scripts/generate-clients/single-service --solo sso"},"main":"./dist-cjs/index.js","types":"./dist-types/index.d.ts","module":"./dist-es/index.js","sideEffects":false,"dependencies":{"@aws-crypto/sha256-browser":"3.0.0","@aws-crypto/sha256-js":"3.0.0","@aws-sdk/config-resolver":"3.329.0","@aws-sdk/fetch-http-handler":"3.329.0","@aws-sdk/hash-node":"3.329.0","@aws-sdk/invalid-dependency":"3.329.0","@aws-sdk/middleware-content-length":"3.329.0","@aws-sdk/middleware-endpoint":"3.329.0","@aws-sdk/middleware-host-header":"3.329.0","@aws-sdk/middleware-logger":"3.329.0","@aws-sdk/middleware-recursion-detection":"3.329.0","@aws-sdk/middleware-retry":"3.329.0","@aws-sdk/middleware-serde":"3.329.0","@aws-sdk/middleware-stack":"3.329.0","@aws-sdk/middleware-user-agent":"3.332.0","@aws-sdk/node-config-provider":"3.329.0","@aws-sdk/node-http-handler":"3.329.0","@aws-sdk/smithy-client":"3.329.0","@aws-sdk/types":"3.329.0","@aws-sdk/url-parser":"3.329.0","@aws-sdk/util-base64":"3.310.0","@aws-sdk/util-body-length-browser":"3.310.0","@aws-sdk/util-body-length-node":"3.310.0","@aws-sdk/util-defaults-mode-browser":"3.329.0","@aws-sdk/util-defaults-mode-node":"3.329.0","@aws-sdk/util-endpoints":"3.332.0","@aws-sdk/util-retry":"3.329.0","@aws-sdk/util-user-agent-browser":"3.329.0","@aws-sdk/util-user-agent-node":"3.329.0","@aws-sdk/util-utf8":"3.310.0","@smithy/protocol-http":"^1.0.1","@smithy/types":"^1.0.0","tslib":"^2.5.0"},"devDependencies":{"@aws-sdk/service-client-documentation-generator":"3.310.0","@tsconfig/node14":"1.0.3","@types/node":"^14.14.31","concurrently":"7.0.0","downlevel-dts":"0.10.1","rimraf":"3.0.2","typedoc":"0.23.23","typescript":"~4.9.5"},"engines":{"node":">=14.0.0"},"typesVersions":{"<4.0":{"dist-types/*":["dist-types/ts3.4/*"]}},"files":["dist-*/**"],"author":{"name":"AWS SDK for JavaScript Team","url":"https://aws.amazon.com/javascript/"},"license":"Apache-2.0","browser":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.browser"},"react-native":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.native"},"homepage":"https://github.com/aws/aws-sdk-js-v3/tree/main/clients/client-sso","repository":{"type":"git","url":"https://github.com/aws/aws-sdk-js-v3.git","directory":"clients/client-sso"}}');
 
 /***/ }),
 
@@ -57343,7 +57977,7 @@ module.exports = JSON.parse('{"name":"@aws-sdk/client-sso","description":"AWS SD
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"name":"@aws-sdk/client-sts","description":"AWS SDK for JavaScript Sts Client for Node.js, Browser and React Native","version":"3.329.0","scripts":{"build":"concurrently \'yarn:build:cjs\' \'yarn:build:es\' \'yarn:build:types\'","build:cjs":"tsc -p tsconfig.cjs.json","build:docs":"typedoc","build:es":"tsc -p tsconfig.es.json","build:include:deps":"lerna run --scope $npm_package_name --include-dependencies build","build:types":"tsc -p tsconfig.types.json","build:types:downlevel":"downlevel-dts dist-types dist-types/ts3.4","clean":"rimraf ./dist-* && rimraf *.tsbuildinfo","extract:docs":"api-extractor run --local","generate:client":"node ../../scripts/generate-clients/single-service --solo sts","test":"yarn test:unit","test:unit":"jest"},"main":"./dist-cjs/index.js","types":"./dist-types/index.d.ts","module":"./dist-es/index.js","sideEffects":false,"dependencies":{"@aws-crypto/sha256-browser":"3.0.0","@aws-crypto/sha256-js":"3.0.0","@aws-sdk/config-resolver":"3.329.0","@aws-sdk/credential-provider-node":"3.329.0","@aws-sdk/fetch-http-handler":"3.329.0","@aws-sdk/hash-node":"3.329.0","@aws-sdk/invalid-dependency":"3.329.0","@aws-sdk/middleware-content-length":"3.329.0","@aws-sdk/middleware-endpoint":"3.329.0","@aws-sdk/middleware-host-header":"3.329.0","@aws-sdk/middleware-logger":"3.329.0","@aws-sdk/middleware-recursion-detection":"3.329.0","@aws-sdk/middleware-retry":"3.329.0","@aws-sdk/middleware-sdk-sts":"3.329.0","@aws-sdk/middleware-serde":"3.329.0","@aws-sdk/middleware-signing":"3.329.0","@aws-sdk/middleware-stack":"3.329.0","@aws-sdk/middleware-user-agent":"3.329.0","@aws-sdk/node-config-provider":"3.329.0","@aws-sdk/node-http-handler":"3.329.0","@aws-sdk/protocol-http":"3.329.0","@aws-sdk/smithy-client":"3.329.0","@aws-sdk/types":"3.329.0","@aws-sdk/url-parser":"3.329.0","@aws-sdk/util-base64":"3.310.0","@aws-sdk/util-body-length-browser":"3.310.0","@aws-sdk/util-body-length-node":"3.310.0","@aws-sdk/util-defaults-mode-browser":"3.329.0","@aws-sdk/util-defaults-mode-node":"3.329.0","@aws-sdk/util-endpoints":"3.329.0","@aws-sdk/util-retry":"3.329.0","@aws-sdk/util-user-agent-browser":"3.329.0","@aws-sdk/util-user-agent-node":"3.329.0","@aws-sdk/util-utf8":"3.310.0","fast-xml-parser":"4.1.2","tslib":"^2.5.0"},"devDependencies":{"@aws-sdk/service-client-documentation-generator":"3.310.0","@tsconfig/node14":"1.0.3","@types/node":"^14.14.31","concurrently":"7.0.0","downlevel-dts":"0.10.1","rimraf":"3.0.2","typedoc":"0.23.23","typescript":"~4.9.5"},"engines":{"node":">=14.0.0"},"typesVersions":{"<4.0":{"dist-types/*":["dist-types/ts3.4/*"]}},"files":["dist-*/**"],"author":{"name":"AWS SDK for JavaScript Team","url":"https://aws.amazon.com/javascript/"},"license":"Apache-2.0","browser":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.browser"},"react-native":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.native"},"homepage":"https://github.com/aws/aws-sdk-js-v3/tree/main/clients/client-sts","repository":{"type":"git","url":"https://github.com/aws/aws-sdk-js-v3.git","directory":"clients/client-sts"}}');
+module.exports = JSON.parse('{"name":"@aws-sdk/client-sts","description":"AWS SDK for JavaScript Sts Client for Node.js, Browser and React Native","version":"3.335.0","scripts":{"build":"concurrently \'yarn:build:cjs\' \'yarn:build:es\' \'yarn:build:types\'","build:cjs":"tsc -p tsconfig.cjs.json","build:docs":"typedoc","build:es":"tsc -p tsconfig.es.json","build:include:deps":"lerna run --scope $npm_package_name --include-dependencies build","build:types":"tsc -p tsconfig.types.json","build:types:downlevel":"downlevel-dts dist-types dist-types/ts3.4","clean":"rimraf ./dist-* && rimraf *.tsbuildinfo","extract:docs":"api-extractor run --local","generate:client":"node ../../scripts/generate-clients/single-service --solo sts","test":"yarn test:unit","test:unit":"jest"},"main":"./dist-cjs/index.js","types":"./dist-types/index.d.ts","module":"./dist-es/index.js","sideEffects":false,"dependencies":{"@aws-crypto/sha256-browser":"3.0.0","@aws-crypto/sha256-js":"3.0.0","@aws-sdk/config-resolver":"3.329.0","@aws-sdk/credential-provider-node":"3.335.0","@aws-sdk/fetch-http-handler":"3.329.0","@aws-sdk/hash-node":"3.329.0","@aws-sdk/invalid-dependency":"3.329.0","@aws-sdk/middleware-content-length":"3.329.0","@aws-sdk/middleware-endpoint":"3.329.0","@aws-sdk/middleware-host-header":"3.329.0","@aws-sdk/middleware-logger":"3.329.0","@aws-sdk/middleware-recursion-detection":"3.329.0","@aws-sdk/middleware-retry":"3.329.0","@aws-sdk/middleware-sdk-sts":"3.329.0","@aws-sdk/middleware-serde":"3.329.0","@aws-sdk/middleware-signing":"3.329.0","@aws-sdk/middleware-stack":"3.329.0","@aws-sdk/middleware-user-agent":"3.332.0","@aws-sdk/node-config-provider":"3.329.0","@aws-sdk/node-http-handler":"3.329.0","@aws-sdk/smithy-client":"3.329.0","@aws-sdk/types":"3.329.0","@aws-sdk/url-parser":"3.329.0","@aws-sdk/util-base64":"3.310.0","@aws-sdk/util-body-length-browser":"3.310.0","@aws-sdk/util-body-length-node":"3.310.0","@aws-sdk/util-defaults-mode-browser":"3.329.0","@aws-sdk/util-defaults-mode-node":"3.329.0","@aws-sdk/util-endpoints":"3.332.0","@aws-sdk/util-retry":"3.329.0","@aws-sdk/util-user-agent-browser":"3.329.0","@aws-sdk/util-user-agent-node":"3.329.0","@aws-sdk/util-utf8":"3.310.0","@smithy/protocol-http":"^1.0.1","@smithy/types":"^1.0.0","fast-xml-parser":"4.1.2","tslib":"^2.5.0"},"devDependencies":{"@aws-sdk/service-client-documentation-generator":"3.310.0","@tsconfig/node14":"1.0.3","@types/node":"^14.14.31","concurrently":"7.0.0","downlevel-dts":"0.10.1","rimraf":"3.0.2","typedoc":"0.23.23","typescript":"~4.9.5"},"engines":{"node":">=14.0.0"},"typesVersions":{"<4.0":{"dist-types/*":["dist-types/ts3.4/*"]}},"files":["dist-*/**"],"author":{"name":"AWS SDK for JavaScript Team","url":"https://aws.amazon.com/javascript/"},"license":"Apache-2.0","browser":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.browser"},"react-native":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.native"},"homepage":"https://github.com/aws/aws-sdk-js-v3/tree/main/clients/client-sts","repository":{"type":"git","url":"https://github.com/aws/aws-sdk-js-v3.git","directory":"clients/client-sts"}}');
 
 /***/ }),
 
